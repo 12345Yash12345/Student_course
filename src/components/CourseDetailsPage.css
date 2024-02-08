@@ -1,0 +1,50 @@
+
+
+.course-details {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .course-info {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-top: 0;
+    color: #007bff;
+  }
+  
+  p {
+    margin-top: 10px;
+  }
+  
+  details {
+    margin-top: 10px;
+  }
+  
+  summary {
+    cursor: pointer;
+    color: #007bff;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,544 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Introduction to React",
+      "instructor": "John Doe",
+      "description": "Learn the basics of React.js framework",
+      "enrollmentStatus": "Open",
+      "thumbnail": "1.jpg",
+      "duration": "6 weeks",
+      "schedule": "Mondays and Wednesdays, 6-8 PM",
+      "location": "Online",
+      "prerequisites": ["HTML", "CSS", "JavaScript"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to React",
+          "content": "Overview of React and its core concepts"
+        },
+        {
+          "week": 2,
+          "topic": "Components and Props",
+          "content": "Understanding components and passing data with props"
+        }
+      ],
+      "students": [
+        {
+          "id": 101,
+          "name": "Alice Johnson",
+          "email": "alice@example.com"
+        },
+        {
+          "id": 102,
+          "name": "Bob Smith",
+          "email": "bob@example.com"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Advanced React Concepts",
+      "instructor": "Jane Smith",
+      "description": "Dive deeper into React.js",
+      "enrollmentStatus": "Closed",
+      "thumbnail": "2.jpg",
+      "duration": "8 weeks",
+      "schedule": "Tuesdays and Thursdays, 7-9 PM",
+      "location": "Online",
+      "prerequisites": ["React Basics"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "State Management",
+          "content": "Understanding state and managing state in React"
+        },
+        {
+          "week": 2,
+          "topic": "Redux Integration",
+          "content": "Integrating Redux for state management in React applications"
+        }
+      ],
+      "students": [
+        {
+          "id": 103,
+          "name": "Charlie Brown",
+          "email": "charlie@example.com"
+        },
+        {
+          "id": 104,
+          "name": "Daisy Johnson",
+          "email": "daisy@example.com"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Node.js Fundamentals",
+      "instructor": "Alice Johnson",
+      "description": "Learn server-side JavaScript with Node.js",
+      "enrollmentStatus": "Open",
+      "thumbnail": "3.jpg",
+      "duration": "10 weeks",
+      "schedule": "Saturdays, 10 AM - 12 PM",
+      "location": "Online",
+      "prerequisites": ["JavaScript", "Express"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Node.js",
+          "content": "Overview of Node.js and its features"
+        },
+        {
+          "week": 2,
+          "topic": "Express Framework",
+          "content": "Building web applications with Express.js"
+        }
+      ],
+      "students": [
+        {
+          "id": 105,
+          "name": "Eva Martinez",
+          "email": "eva@example.com"
+        },
+        {
+          "id": 106,
+          "name": "Franklin Adams",
+          "email": "franklin@example.com"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "JavaScript Fundamentals",
+      "instructor": "Mark Johnson",
+      "description": "Learn the basics of JavaScript programming language",
+      "enrollmentStatus": "Open",
+      "thumbnail": "4.jpg",
+      "duration": "6 weeks",
+      "schedule": "Tuesdays and Thursdays, 6-8 PM",
+      "location": "Online",
+      "prerequisites": [],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to JavaScript",
+          "content": "Overview of JavaScript and its applications"
+        },
+        {
+          "week": 2,
+          "topic": "Data Types and Variables",
+          "content": "Understanding different data types and variable declaration"
+        }
+      ],
+      "students": [
+        {
+          "id": 107,
+          "name": "Grace Johnson",
+          "email": "grace@example.com"
+        },
+        {
+          "id": 108,
+          "name": "Henry Lee",
+          "email": "henry@example.com"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Python for Beginners",
+      "instructor": "Sarah White",
+      "description": "Learn Python programming language from scratch",
+      "enrollmentStatus": "Open",
+      "thumbnail": "5.jpg",
+      "duration": "8 weeks",
+      "schedule": "Mondays and Wednesdays, 7-9 PM",
+      "location": "Online",
+      "prerequisites": [],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Python",
+          "content": "Overview of Python programming language"
+        },
+        {
+          "week": 2,
+          "topic": "Control Flow",
+          "content": "Understanding if statements, loops, and control flow in Python"
+        }
+      ],
+      "students": [
+        {
+          "id": 109,
+          "name": "Ivy Adams",
+          "email": "ivy@example.com"
+        },
+        {
+          "id": 110,
+          "name": "Jack Brown",
+          "email": "jack@example.com"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Web Development Bootcamp",
+      "instructor": "David Miller",
+      "description": "Comprehensive course covering HTML, CSS, and JavaScript",
+      "enrollmentStatus": "Open",
+      "thumbnail": "6.jpg",
+      "duration": "12 weeks",
+      "schedule": "Saturdays and Sundays, 10 AM - 2 PM",
+      "location": "Online",
+      "prerequisites": [],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to HTML",
+          "content": "Understanding the structure of HTML documents"
+        },
+        {
+          "week": 2,
+          "topic": "Styling with CSS",
+          "content": "Styling HTML elements using CSS"
+        }
+      ],
+      "students": [
+        {
+          "id": 111,
+          "name": "Karen Smith",
+          "email": "karen@example.com"
+        },
+        {
+          "id": 112,
+          "name": "Lucas Martinez",
+          "email": "lucas@example.com"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Machine Learning Fundamentals",
+      "instructor": "Emily Johnson",
+      "description": "Introduction to machine learning concepts and algorithms",
+      "enrollmentStatus": "Open",
+      "thumbnail": "7.jpg",
+      "duration": "8 weeks",
+      "schedule": "Tuesdays and Thursdays, 6-8 PM",
+      "location": "Online",
+      "prerequisites": ["Python Basics"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Machine Learning",
+          "content": "Overview of machine learning concepts and applications"
+        },
+        {
+          "week": 2,
+          "topic": "Supervised Learning",
+          "content": "Introduction to supervised learning algorithms"
+        }
+      ],
+      "students": [
+        {
+          "id": 113,
+          "name": "Michael Brown",
+          "email": "michael@example.com"
+        },
+        {
+          "id": 114,
+          "name": "Nancy Miller",
+          "email": "nancy@example.com"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Data Structures and Algorithms",
+      "instructor": "Alex Johnson",
+      "description": "Learn about fundamental data structures and algorithms",
+      "enrollmentStatus": "Open",
+      "thumbnail": "8.jpg",
+      "duration": "10 weeks",
+      "schedule": "Saturdays, 10 AM - 12 PM",
+      "location": "Online",
+      "prerequisites": ["Python Basics"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Data Structures",
+          "content": "Overview of basic data structures such as arrays and linked lists"
+        },
+        {
+          "week": 2,
+          "topic": "Sorting Algorithms",
+          "content": "Introduction to sorting algorithms like bubble sort and quicksort"
+        }
+      ],
+      "students": [
+        {
+          "id": 115,
+          "name": "Olivia Martinez",
+          "email": "olivia@example.com"
+        },
+        {
+          "id": 116,
+          "name": "Patrick Johnson",
+          "email": "patrick@example.com"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "iOS App Development",
+      "instructor": "Sophia Adams",
+      "description": "Learn iOS app development using Swift programming language",
+      "enrollmentStatus": "Open",
+      "thumbnail": "9.jpg",
+      "duration": "8 weeks",
+      "schedule": "Mondays and Wednesdays, 6-8 PM",
+      "location": "Online",
+      "prerequisites": ["Swift Basics"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to iOS Development",
+          "content": "Overview of iOS app development and Xcode IDE"
+        },
+        {
+          "week": 2,
+          "topic": "Building User Interfaces",
+          "content": "Creating user interfaces using Interface Builder and SwiftUI"
+        }
+      ],
+      "students": [
+        {
+          "id": 117,
+          "name": "Quincy Adams",
+          "email": "quincy@example.com"
+        },
+        {
+          "id": 118,
+          "name": "Rachel Lee",
+          "email": "rachel@example.com"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Java Programming",
+      "instructor": "William Smith",
+      "description": "Learn Java programming language from basics to advanced",
+      "enrollmentStatus": "Open",
+      "thumbnail": "10.jpg",
+      "duration": "10 weeks",
+      "schedule": "Saturdays, 2-4 PM",
+      "location": "Online",
+      "prerequisites": [],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Java",
+          "content": "Overview of Java programming language and JDK"
+        },
+        {
+          "week": 2,
+          "topic": "Object-Oriented Programming",
+          "content": "Understanding OOP concepts such as classes and objects"
+        }
+      ],
+      "students": [
+        {
+          "id": 119,
+          "name": "Samuel Johnson",
+          "email": "samuel@example.com"
+        },
+        {
+          "id": 120,
+          "name": "Tina Brown",
+          "email": "tina@example.com"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Artificial Intelligence",
+      "instructor": "Emma Davis",
+      "description": "Learn about artificial intelligence and machine learning",
+      "enrollmentStatus": "Open",
+      "thumbnail": "11.jpg",
+      "duration": "8 weeks",
+      "schedule": "Tuesdays and Thursdays, 7-9 PM",
+      "location": "Online",
+      "prerequisites": ["Python Basics"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Artificial Intelligence",
+          "content": "Overview of AI concepts and applications"
+        },
+        {
+          "week": 2,
+          "topic": "Neural Networks",
+          "content": "Introduction to artificial neural networks"
+        }
+      ],
+      "students": [
+        {
+          "id": 121,
+          "name": "Ursula Miller",
+          "email": "ursula@example.com"
+        },
+        {
+          "id": 122,
+          "name": "Victor Adams",
+          "email": "victor@example.com"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Cybersecurity Fundamentals",
+      "instructor": "Daniel Johnson",
+      "description": "Learn about cybersecurity principles and practices",
+      "enrollmentStatus": "Open",
+      "thumbnail": "12.jpg",
+      "duration": "6 weeks",
+      "schedule": "Saturdays and Sundays, 10 AM - 12 PM",
+      "location": "Online",
+      "prerequisites": [],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Cybersecurity",
+          "content": "Overview of cybersecurity threats and defense mechanisms"
+        },
+        {
+          "week": 2,
+          "topic": "Network Security",
+          "content": "Understanding network security protocols and technologies"
+        }
+      ],
+      "students": [
+        {
+          "id": 123,
+          "name": "Wendy Brown",
+          "email": "wendy@example.com"
+        },
+        {
+          "id": 124,
+          "name": "Xavier Lee",
+          "email": "xavier@example.com"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "React Native Development",
+      "instructor": "Ella Johnson",
+      "description": "Build mobile apps using React Native framework",
+      "enrollmentStatus": "Open",
+      "thumbnail": "13.jpg",
+      "duration": "8 weeks",
+      "schedule": "Saturdays and Sundays, 2-4 PM",
+      "location": "Online",
+      "prerequisites": ["React Basics"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Getting Started with React Native",
+          "content": "Setting up React Native environment and building a simple app"
+        },
+        {
+          "week": 2,
+          "topic": "Navigation and UI Components",
+          "content": "Implementing navigation and UI components in React Native"
+        }
+      ],
+      "students": [
+        {
+          "id": 125,
+          "name": "Yasmine Adams",
+          "email": "yasmine@example.com"
+        },
+        {
+          "id": 126,
+          "name": "Zane Miller",
+          "email": "zane@example.com"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Full-Stack Web Development",
+      "instructor": "Fiona Johnson",
+      "description": "Learn front-end and back-end web development",
+      "enrollmentStatus": "Open",
+      "thumbnail": "14.jpg",
+      "duration": "12 weeks",
+      "schedule": "Mondays and Wednesdays, 7-9 PM",
+      "location": "Online",
+      "prerequisites": ["HTML", "CSS", "JavaScript", "Node.js", "Express"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Front-End Development",
+          "content": "Building user interfaces with HTML, CSS, and JavaScript"
+        },
+        {
+          "week": 2,
+          "topic": "Back-End Development",
+          "content": "Creating server-side applications with Node.js and Express"
+        }
+      ],
+      "students": [
+        {
+          "id": 127,
+          "name": "Zara Brown",
+          "email": "zara@example.com"
+        },
+        {
+          "id": 128,
+          "name": "Aaron Martinez",
+          "email": "aaron@example.com"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Cloud Computing Fundamentals",
+      "instructor": "George Adams",
+      "description": "Learn about cloud computing concepts and platforms",
+      "enrollmentStatus": "Open",
+      "thumbnail": "15.jpg",
+      "duration": "6 weeks",
+      "schedule": "Saturdays, 2-4 PM",
+      "location": "Online",
+      "prerequisites": [],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Cloud Computing",
+          "content": "Overview of cloud computing services and deployment models"
+        },
+        {
+          "week": 2,
+          "topic": "Cloud Platforms",
+          "content": "Understanding major cloud platforms like AWS, Azure, and GCP"
+        }
+      ],
+      "students": [
+        {
+          "id": 129,
+          "name": "Adam Johnson",
+          "email": "adam@example.com"
+        },
+        {
+          "id": 130,
+          "name": "Bella Martinez",
+          "email": "bella@example.com"
+        }
+      ]
+    }
+  ]
+}

@@ -60,7 +60,7 @@ export const fetchData = () => {
 export const enrollCourse = (courseId) => {
   return async (dispatch, getState) => {
     try {
-      const { enrolledCourses } = getState(); // Modify this to match your state structure
+      const { enrolledCourses } = getState(); 
       const response = await axios.get('/courses.json');
       const course = response.data.courses.find(course => course.id === courseId);
       const isAlreadyEnrolled = enrolledCourses.some(course => course.id === courseId);
